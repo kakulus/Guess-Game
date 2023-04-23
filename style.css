@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        background-color: rgb(26, 25, 25);
+   
+}
+p{
+        text-align: right;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+}
+.again{
+      position: relative;
+      bottom: 25px;
+        padding: 5px 10px;
+        background-color: white;
+        color: black;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Press Start 2P',sans-serif;
+}
+h1{
+        text-align: center;
+        margin-top: 100px;
+        position:relative;
+        color: white;
+        font-size: 45px;
+        font-weight: 900;
+        font-family: 'Press Start 2P',sans-serif;
+}
+hr{
+       margin-top: 50px;
+        height: 10px;
+        width: 100%;
+        background-color: white;
+}
+.number{
+     width: 80px;
+     height: 60px;
+     background-color: white;
+     border: none;
+     color: black;
+     font-size: 30px;
+     font-weight: 900;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     position: relative;
+     left: 50%;
+     bottom: 35px;
+     font-family: 'Press Start 2P',sans-serif;
+}
+.left{
+        padding: 10px 6px 12px 9px;
+}
+.assumption{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 130px;
+        height: 40px;
+        background-color: white;
+        border:none;
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+}
+.check{
+        position: relative;
+        top: 40px;
+        right: 107px;
+        width: 75px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+}
+.message{
+        margin-bottom: 30px;
+        margin-right: 70px;
+}
+.label-score{
+        margin-right: 70px;
+        
+        margin-bottom: 20px;
+}
+.label-highscore{
+        margin-right: 20px;
+        margin-right: 70px;
+}
+@media(max-width:767px){
+     
+  h1{
+        font-size: 40px;
+  }
+  .message{
+    position: relative;
+    left: 76px;   
+  }
+  .label-score{
+        position: relative;
+        left: 60px;
+  }
+  .label-highscore{
+        position: relative;
+        left: 60px;
+  }
+  p{
+        text-align: right;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+  }
+.again{
+        padding: 3px 8px;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        font-weight: bold; 
+}    
+}
